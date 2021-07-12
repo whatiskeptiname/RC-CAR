@@ -3,12 +3,9 @@
 RC-Car is an Arduino-based Remote Controlled car with servo arm, developed for two events Vector organized by Western Region Campus (WRC) and Locus organized by Pulchowk Engineering Campus.
 
 ## Images
-
-<div align="center">
    <img src="./images/bot.jpg" width="40%" height="40%" />
 
    <img src="./images/bot+controller.jpg" width="40%" height="40%" />
-</div>
 
 ## Components Used
 
