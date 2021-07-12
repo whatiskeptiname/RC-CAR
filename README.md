@@ -7,6 +7,8 @@ RC-Car is an Arduino-based Remote Controlled car with servo arm, developed for t
 <div align="center">
    <img src="./images/bot.jpg" width="100%" height="100%" />
 
+<br/>
+
    <img src="./images/bot+controller.jpg" width="100%" height="100%" />
 </div>
 
