@@ -1,25 +1,27 @@
-#include"wrapper.h"
+// This is the main file
+
+#include"wrapper.h" // include the wrapper file
 
 void loop()
 {
-  readPPMData();
+  readPPMData(); // get the ppm data from transmitter
   for (int i = 0; i < 8; i++)
   {
-    Serial.print(" " + String(ch[i]) + " ");
+    Serial.print(" " + String(ch[i]) + " "); // print the received channel datas
   }
-  Serial.println();
+  Serial.println(); // print \n 
   delay(1000);
-  return;
-  if (system_alive())
+  return; // I dont know why I had put this here 
+  if (system_alive()) // to check if the system is alive
   {
-    servo_posn();
-    servo_dance();
-    get_gear();
-    mobilize();
+    servo_posn(); // set the servo position
+    servo_dance(); // quickly move the servo back and forth
+    get_gear(); // get and set the speed of bot
+    mobilize(); // move the bot according to the instruciton 
   }
   else
   {
-    neutral();
+    neutral(); // stop the bot
     Serial.println("System on hold");
   }
   Serial.println();
