@@ -15,12 +15,12 @@ RC-Car is an Arduino-based Remote Controlled car with Servo arm, developed for t
 ## Components Used
 
 1. Arduino Uno
-2. Bot Chassis
-3. Geared Motor *4
-4. Lipo Battery
-5. Servo
-6. Transmitter FLYSKY
-7. Receiver FS-IA10B
+1. Bot Chassis
+1. Geared Motor *4
+1. Lipo Battery
+1. Servo
+1. Transmitter FLYSKY
+1. Receiver FS-IA10B
 
 ## Working
 
